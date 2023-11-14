@@ -1,0 +1,19 @@
+{
+  "name": "snoeyes-chatbot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.19",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.12.3",
+    "twitch-js": "^2.0.0-beta.45"
+  }
+}
